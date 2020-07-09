@@ -1,0 +1,25 @@
+.sidebar-menu {
+  z-index: 999 !important;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  width: 96.5%;
+  height: 90px;
+  background: #fff;
+  padding: 16px 55px 16px 250px;
+  border-radius: 2px;
+  box-shadow: 0px 0px 6px #ddd;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.go-up {
+  cursor: pointer;
+  position: fixed;
+  right: 38px;
+  bottom: 38px;
+}

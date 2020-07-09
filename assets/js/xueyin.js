@@ -1,0 +1,12 @@
+$("#black1").click(function () {
+  var s = $(this).html();
+  if (s == "夜间模式") {
+    $('.page-body,.navbar,.text-gray,.box2,.xe-user-name,.main-footer').css("cssText", "background-color:#2c2e2f !important;color:#fff !important");
+    $('.user-info-menu,.user-info-menu>li,.user-info-menu>li>a').css("cssText", "border:none;");
+
+    $(this).html("白天模式");
+  } else {
+    $('.page-body,.navbar,.text-gray,.box2,.xe-user-name').css("cssText", "");
+    $(this).html("夜间模式");
+  }
+});
